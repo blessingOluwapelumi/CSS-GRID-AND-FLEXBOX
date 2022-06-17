@@ -131,13 +131,27 @@ body {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .main-container {
         display: grid;
         justify-content: center;
+      gap:10px;
         /* align-items: center; */
 
     }
 
+
+.task-btn {
+  display: flex;
+  justify-content:center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2rem;
+  margin-bottom:1rem;
+  margin-right:0;
+
+
+
+}
+  
 
 }
