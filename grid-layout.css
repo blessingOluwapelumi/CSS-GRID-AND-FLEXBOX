@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 213, 213);
+   
+}
+
+
+
+.task-btn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+
+
+}
+
+.task-btn a {
+    background-color: blue;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+main{
+    display: flex;
+    place-items: center;
+    min-height: 80vh;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-areas:
+        'a a b'
+        'd c c'
+        'd e e'
+
+    ;
+    gap: 10px;
+    width: 40%;
+    margin: auto;
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+
+}
+
+.first-grid {
+    background-color: blue;
+    grid-area: a;
+    height: 25vh;
+
+}
+
+.second-grid {
+    background-color: white;
+    grid-area: b;
+    height: 25vh;
+}
+
+.third-grid {
+    background-color: white;
+    grid-area: c;
+    /* height: 30px; */
+
+}
+
+.fourth-grid {
+    background-color: #394141;
+    grid-area: d;
+
+}
+
+
+.fifth-grid {
+    background-color: rgb(11, 117, 246);
+    grid-area: e;
+    height: 15vh;
+}
