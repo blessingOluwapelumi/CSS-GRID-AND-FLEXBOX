@@ -94,3 +94,64 @@ main div {
     grid-area: e;
     height: 15vh;
 }
+
+
+@media screen and (max-width:500px) {
+
+
+    .task-btn {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: auto;
+        font-size: 10px;
+        padding-top: 11rem;
+        padding-right: 3.5rem;
+        /* min-height: 50vh; */
+    }
+
+    main {
+        margin-top: 20px;
+        min-height: 0;
+    }
+
+    .main-grid {
+
+        width: 70%;
+
+    }
+
+
+    main div {
+        padding: 0;
+        text-align: center;
+
+    }
+
+
+    .first-grid {
+        height: 18vh;
+
+    }
+
+    .second-grid {
+        height: 18vh;
+    }
+
+    .third-grid {
+        background-color: white;
+        grid-area: c;
+        height: 7vh;
+
+    }
+
+
+
+    .fifth-grid {
+        background-color: rgb(11, 117, 246);
+        grid-area: e;
+        height: 10vh;
+    }
+
+
+}
